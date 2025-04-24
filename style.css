@@ -21,6 +21,7 @@
   font-weight: 500;
   font-size: 1rem;
   line-height: 35px;
+  outline: none;
 }
 body {
   min-height: 100vh;
@@ -153,6 +154,13 @@ textarea {
 #mail:hover {
   color: var(--color);
   border-color: var(--color);
+  cursor: pointer;
+}
+#message:focus,
+#name:focus,
+#mail:focus {
+  color: var(--black);
+  border: 2px solid var(--color);
   cursor: pointer;
 }
 label {
