@@ -6,7 +6,7 @@
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-white?style=for-the-badge&logo=lighthouse)
 ![Performances](https://img.shields.io/badge/Performances-xx-grey) ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-xx-grey) ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-xx-grey) ![SEO](https://img.shields.io/badge/SEO-xx-grey)
 \
-<img src="https://github.com/jhauck67/Projet-Run/blob/mainassets/sketch/Aper%C3%A7u%20du%20site.png" alt="Aperçu du Projet" style="width:960px; height:auto;">
+<img src="https://github.com/jhauck67/Projet-Run/blob/main/assets/sketch/Aper%C3%A7u%20du%20site.png" alt="Aperçu du Projet" style="width:960px; height:auto;">
 
 # Description
 
