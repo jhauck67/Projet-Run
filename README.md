@@ -120,7 +120,7 @@ Tu peux consulter la version en ligne de ce projet via GitHub Pages en cliquant 
 
 | Catégorie            | Test                                                                      | Mobile (iPhone 12) | Tablet (iPad Air 4) | Desktop (HP Envy x360)           | Observations |
 | -------------------- | ------------------------------------------------------------------------- | ------------------ | ------------------- | -------------------------------- | ------------ |
-| Accessibilité (a11y) | Vérification des attributs `alt`, les `aria-label`, la navigation clavier |                    |                     | [WAVE](https://wave.webaim.org/) |              |
+| Accessibilité (a11y) | Vérification des attributs `alt`, les `aria-label`, la navigation clavier |                    |                     | [WAVE](https://wave.webaim.org/) | Test WAVE ok |
 
 ### 🧪Audit SEO
 
@@ -145,19 +145,19 @@ Cumulative Layout Shift ![Cumulative Layout Shift](https://img.shields.io/badge/
 Speed Index ![Speed Index](https://img.shields.io/badge/Speed_Index-1,9s-brightgreen)
 \
 \
-_Description des performances_
+Ce score reflète la rapidité d’affichage et de réactivité du site. Un score de 95 indique un site fluide, avec un bon temps de chargement et une optimisation efficace des ressources. Quelques optimisations supplémentaires (comme la mise en cache de certaines ressources) pourraient permettre d’atteindre le score parfait.
 
 ## Accessibilité ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-100-brightgreen)
 
-_Description de l'accessibilité_
+Le site respecte l’ensemble des bonnes pratiques en matière d’accessibilité : navigation clavier, structure logique du contenu, contraste suffisant… Cela garantit une meilleure expérience pour tous les utilisateurs, y compris ceux utilisant des technologies d’assistance.
 
 ## Bonnes pratiques ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-100-brightgreen)
 
-_Description des bonnes pratiques_
+Le code est sécurisé, moderne et respecte les standards du web (HTTPS, absence d’erreurs JavaScript, règles de sécurité applicables comme HSTS, XFO, etc.). Cela montre un développement rigoureux et fiable.
 
 ## SEO ![SEO](https://img.shields.io/badge/SEO-100-brightgreen)
 
-_Description du SEO_
+Le site est bien optimisé pour le référencement naturel (Search Engine Optimization) : titres bien définis, balises méta présentes, bonnes pratiques techniques respectées. Cela améliore sa visibilité sur les moteurs de recherche.
 
 # Auteur :
 
