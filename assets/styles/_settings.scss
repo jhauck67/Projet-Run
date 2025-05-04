@@ -43,7 +43,8 @@ $shadow: #2720221a;
 }
 body {
   width: 100dvw;
-  min-height: 100dvh;
+  min-height: 100svh;
+  min-height: 100vh;
   background: $white;
   overflow-x: hidden;
   scroll-behavior: smooth;

@@ -25,7 +25,8 @@
 
 body {
   width: 100dvw;
-  min-height: 100dvh;
+  min-height: 100svh;
+  min-height: 100vh;
   background: #f2f2f2;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -282,6 +283,9 @@ main .section2 .section2-right {
   grid-area: button;
   padding: 0 10px;
   text-align: center;
+}
+.form form .button-container .button {
+  background: transparent;
 }
 
 footer {
