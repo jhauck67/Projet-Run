@@ -6,7 +6,7 @@
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-white?style=for-the-badge&logo=lighthouse)
 ![Performances](https://img.shields.io/badge/Performances-xx-grey) ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-xx-grey) ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-xx-grey) ![SEO](https://img.shields.io/badge/SEO-xx-grey)
 \
-<img src="" alt="Aperçu du Projet" style="width:960px; height:auto;">
+<img src="https://github.com/jhauck67/Projet-Run/blob/main/assets/sketch/Aper%C3%A7u%20du%20site.png" alt="Aperçu du Projet" style="width:960px; height:auto;">
 
 # Description
 
@@ -59,12 +59,12 @@ Le code a été structuré pour être facile à maintenir et à développer.
 # Aperçu
 
 Voici un aperçu du projet, que tu peux visualiser en ligne sur GitHub Pages :
-![Aperçu du projet]()
+![Aperçu du projet](https://github.com/jhauck67/Projet-Run/blob/main/assets/sketch/Vid%C3%A9o-site.gif)
 
 ## Lien vers le site en ligne
 
 Tu peux consulter la version en ligne de ce projet via GitHub Pages en cliquant sur le lien suivant :
-[Voir le site sur GitHub Pages]()
+[Voir le site sur GitHub Pages](https://jhauck67.github.io/Projet-Run/)
 
 # Tests et vérifications
 
