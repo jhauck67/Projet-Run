@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  @include maxWidth;
+  height: 100dvh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  @media screen and (max-width: 720px) {
+    display: block;
+  }
+
+  .header-text {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    @media screen and (max-width: 720px) {
+      width: 85%;
+      height: 50dvh;
+    }
+
+    background: $white;
+    @include centerChild;
+  }
+
+  .header-image {
+    background: url(../img/banner1440px.webp) right/cover;
+    //*Evolution du background selon la taille de l'écran
+    @media screen and (max-width: 720px) {
+      height: 50dvh;
+      background: url(../img/banner720px.webp) center/cover;
+    }
+  }
+}
