@@ -73,7 +73,7 @@ header {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  height: 100dvh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -100,16 +100,22 @@ header .header-text {
 @media screen and (max-width: 720px) {
   header .header-text {
     width: 85%;
-    height: 50dvh;
+    height: 50vh;
   }
 }
 header .header-image {
-  background: url(../img/banner1440px.webp) right/cover;
+  background: url(../img/banner-1440px.webp) right/cover;
 }
 @media screen and (max-width: 720px) {
   header .header-image {
-    height: 50dvh;
-    background: url(../img/banner720px.webp) center/cover;
+    height: 50vh;
+    background: url(../img/banner-770px.webp) center/cover;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .header-image {
+    height: 50vh;
+    background: url(../img/banner-600px.webp) center/cover;
   }
 }
 
@@ -141,7 +147,7 @@ main {
   margin: 0 auto;
   margin: 0 auto;
   padding-bottom: 60px;
-  position: relative;
+  position: relative !important;
 }
 main::after {
   content: "";
