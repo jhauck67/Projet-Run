@@ -26,9 +26,11 @@
 body {
   width: 100vw;
   min-height: 100vh;
+  min-height: 100svh;
 
   background: #f2f2f2;
   overflow-x: hidden;
+  overscroll-behavior: none;
   scroll-behavior: smooth;
 }
 
