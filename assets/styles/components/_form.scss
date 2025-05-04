@@ -66,6 +66,9 @@
       grid-area: button;
       padding: 0 10px;
       text-align: center;
+      .button {
+        background: transparent;
+      }
     }
   }
 }

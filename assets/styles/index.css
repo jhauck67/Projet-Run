@@ -277,6 +277,9 @@ main .section2 .section2-right {
   padding: 0 10px;
   text-align: center;
 }
+.form form .button-container .button {
+  background: transparent;
+}
 
 footer {
   width: 100%;
