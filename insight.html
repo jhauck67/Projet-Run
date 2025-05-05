@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        display: inline-block;
+      }
+      .first-line {
+        background: #151b23;
+        width: 720px;
+        padding: 20px 10px 5px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+        border-bottom: 2px solid grey;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+      }
+      [role="progressbar"] {
+        --percentage: var(--value);
+        --primary: rgb(47, 226, 56);
+        --secondary: #151b23;
+        --size: 100px;
+        width: var(--size);
+        aspect-ratio: 1;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        display: grid;
+        place-items: center;
+      }
+
+      [role="progressbar"]::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 120%;
+        height: 120%;
+        background: conic-gradient(
+          var(--primary) calc(var(--percentage) * 1%),
+          var(--secondary) 0
+        );
+        mask: radial-gradient(white 55%, transparent 0);
+        mask-mode: alpha;
+        -webkit-mask: radial-gradient(#0000 55%, #000 0);
+        -webkit-mask-mode: alpha;
+      }
+
+      [role="progressbar"]::after {
+        counter-reset: percentage var(--value);
+        content: counter(percentage) "%";
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: calc(var(--size) / 5);
+        color: var(--primary);
+      }
+
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-line">
+      <div class="card">
+        <div
+          role="progressbar"
+          aria-valuenow="97"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="--value: 97"
+        ></div>
+        <h2>Performances</h2>
+      </div>
+      <div class="card">
+        <div
+          role="progressbar"
+          aria-valuenow="100"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="--value: 100"
+        ></div>
+        <h2>Accessibilité</h2>
+      </div>
+      <div class="card">
+        <div
+          role="progressbar"
+          aria-valuenow="100"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="--value: 100"
+        ></div>
+        <h2>Bonnes Pratiques</h2>
+      </div>
+      <div class="card">
+        <div
+          role="progressbar"
+          aria-valuenow="100"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="--value: 100"
+        ></div>
+        <h2>SEO</h2>
+      </div>
+    </div>
+  </body>
+</html>
