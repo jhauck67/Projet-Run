@@ -130,7 +130,9 @@ Tu peux consulter la version en ligne de ce projet via GitHub Pages en cliquant 
 
 # Audit Lighthouse <img src="https://go-skill-icons.vercel.app/api/icons?i=lighthouse" alt="Logo Lighthouse" style="width:32px; height:auto;">
 
-Le projet a été audité à l'aide de Lighthouse pour évaluer ses performances, son accessibilité, ses bonnes pratiques et son SEO. Voici les résultats :
+Le projet a été audité à l'aide de Lighthouse pour évaluer ses performances, son accessibilité, ses bonnes pratiques et son SEO. Voici les résultats :  
+
+![Aperçu Insight](assets/sketch/Insight.png)
 
 ## Performances ![Performances](https://img.shields.io/badge/Performances-97-brightgreen)
 
